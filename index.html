@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>My Profile Card</title>
+  </head>
+  <body>
+    <div class="h-screen bg-slate-100 flex justify-center items-center p-8">
+      <div class="container w-96 bg-white shadow-lg rounded-lg overflow-hidden">
+        <!-- Cover Image -->
+        <div class="h-32 w-full flex justify-center items-center">
+          <img
+            src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="cover"
+            class="h-full w-full object-cover"
+          />
+        </div>
+
+        <!-- Profile Picture -->
+        <div class="flex justify-center px-5 -mt-12">
+          <img
+            class="h-32 w-32 bg-white p-2 rounded-full"
+            src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/471527109_1944115906111100_4437082869037229937_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=t4qoLaCXRU8Q7kNvgEf3WnL&_nc_oc=AdnI2AwFo-xoqQ69MPhnvmAt39CESH1Az-dahQtYwlB2s_Sh11GiMIdJU4eZNL6T0LM&_nc_zt=23&_nc_ht=scontent.fktm8-1.fna&_nc_gid=v5M0XcESN2dPI39qdLZQsg&oh=00_AYFA90QtXcfuMrV1lhzgXXWYSrwTpvAVGrpkUcr9ynoTog&oe=67EDFF76"
+            alt="Profile Picture"
+          />
+        </div>
+
+        <!-- User Info -->
+        <div class="text-center px-14">
+          <h2 class="text-gray-800 text-3xl font-bold">Pratik Maharjan</h2>
+          <p class="text-gray-400 mt-2">@ZeusEra</p>
+          <p class="text-gray-500 mt-2 text-sm">
+            My passion lies in gaming and technology, and my background as a
+            gaming enthusiast gives me a unique edge in the IT and programming
+            world. Unlike many other IT students, I bring a strategic and
+            competitive mindset, problem-solving skills, and a deep
+            understanding of systems and mechanics—all honed from competitive
+            gaming. Whether it is gaming strategies or coding solutions, I think
+            outside the box. As I have mastered complex game mechanics before,
+            so picking up new programming languages and concepts comes
+            naturally.
+          </p>
+        </div>
+
+        <hr class="mt-6" />
+
+        <!-- Followers & Following Section -->
+        <div class="flex bg-gray-50">
+          <div class="w-1/2 text-center p-4 hover:bg-violet-200 cursor-pointer">
+            <p><span class="font-semibold">100k</span> Followers</p>
+          </div>
+          <div class="border"></div>
+          <div class="w-1/2 text-center p-4 hover:bg-green-200 cursor-pointer">
+            <p><span class="font-semibold">500</span> Following</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
